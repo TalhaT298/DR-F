@@ -20,8 +20,8 @@ const Navbar = () => {
   return (
     <div>
       <nav className="flex items-center justify-between bg-sky-950 px-4 py-2 text-white">
-        <div className="scale-100 rounded-2xl px-3 py-2 text-xl font-semibold text-white ">
-          <h2>Dr Fazal Karim</h2>
+        <div className="scale-100 rounded-2xl px-3 py-2 text-2xl font-semibold text-white ">
+          <h2 className='new-amsterdam-regular '>Dr Fazal Karim</h2>
         </div>
         <div className="md:hidden">
           <button
