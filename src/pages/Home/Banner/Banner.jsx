@@ -115,7 +115,7 @@ const Banner = () => {
             {banners.map((banner, index) => (
                 <div
                     key={index}
-                    className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000 ease-in-out ${index === currentSlide ? 'opacity-100' : 'opacity-0'}`}
+                    className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000 ease-in-out ${index === currentSlide ? 'opacity-80' : 'opacity-0'}`}
                     style={{ backgroundImage: banner.backgroundImage, backgroundSize: 'cover', backgroundPosition: 'center' }}
                 >
                     <div className="flex items-center justify-center w-full h-full bg-black bg-opacity-50 text-white">
