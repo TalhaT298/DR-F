@@ -120,8 +120,8 @@ const Banner = () => {
                 >
                     <div className="flex items-center justify-center w-full h-full bg-black bg-opacity-50 text-white">
                         <div className="text-center px-4">
-                            <h1 className="text-4xl font-bold mb-4">{banner.headline}</h1>
-                            <p className="text-lg">{banner.paragraph}</p>
+                            <h1 className="text-4xl font-extrabold mb-4">{banner.headline}</h1>
+                            <p className="text-xl font-semibold">{banner.paragraph}</p>
                         </div>
                     </div>
                 </div>
