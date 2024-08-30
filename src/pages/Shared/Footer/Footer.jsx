@@ -5,7 +5,7 @@ import { RiTwitterXFill } from "react-icons/ri";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer footer-center bg-sky-950 text-base-content rounded p-10">
+      <footer className="footer footer-center bg-cyan-800  text-base-content rounded p-10">
         <nav className="grid grid-flow-col gap-4 text-white">
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>
