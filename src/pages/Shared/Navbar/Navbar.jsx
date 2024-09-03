@@ -21,7 +21,7 @@ const Navbar = () => {
     <div>
       <nav className="flex items-center justify-between bg-cyan-800 px-4 py-2 text-white">
         <div className="scale-100 rounded-2xl px-3 py-2 text-2xl font-semibold text-white ">
-          <h2 className='new-amsterdam-regular '>Dr Faal Karim</h2>
+          <h2 className='new-amsterdam-regular '>Dr Fajal Karim</h2>
         </div>
         <div className="md:hidden">
           <button
