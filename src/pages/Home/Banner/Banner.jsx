@@ -79,7 +79,9 @@
 // };
 
 import React, { useEffect, useState } from 'react';
-import banner1 from "../../../assets/banner1.jpg"
+import banner1 from "../../../assets/meatlab.jpg";
+import banner2 from "../../../assets/Mitford.jpg";
+import banner3 from "../../../assets/acredation_hepatology_training_at_mitford.jpg";
 const banners = [
     {
         headline: "Associate Professor and Head of Hepatology Dept",
@@ -90,12 +92,12 @@ const banners = [
     {
         headline: "Associate Professor and Head of Hepatology Dept",
         paragraph: "Mitford Hospital",
-        backgroundImage: "url('https://via.placeholder.com/1920x600?text=Banner+2')"
+        backgroundImage: `url(${banner2})`
     },
     {
         headline: "Associate Professor and Head of Hepatology Dept",
         paragraph: "Be part of our amazing community and grow with us.",
-        backgroundImage: "url('https://via.placeholder.com/1920x600?text=Banner+3')"
+        backgroundImage: `url(${banner3})`
     }
 ];
 
@@ -115,7 +117,7 @@ const Banner = () => {
             {banners.map((banner, index) => (
                 <div
                     key={index}
-                    className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000 ease-in-out ${index === currentSlide ? 'opacity-80' : 'opacity-0'}`}
+                    className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000 ease-in-out ${index === currentSlide ? 'opacity-95' : 'opacity-0'}`}
                     style={{ backgroundImage: banner.backgroundImage, backgroundSize: 'cover', backgroundPosition: 'center' }}
                 >
                     <div className="flex items-center justify-center w-full h-full bg-black bg-opacity-50 text-white">
